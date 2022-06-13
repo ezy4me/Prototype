@@ -9,6 +9,7 @@ public class Reg extends AppCompatActivity {
     public final int a = 0;
     public int b = 0;
     public int c = 0;
+    public int d = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
