@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F8DF00">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:shadowColor="@color/black"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/input"
+            android:backgroundTint="@color/black"
+            android:shadowRadius="@integer/material_motion_duration_long_1"
+            android:text="Назад"
+            android:textColor="@android:color/white">
+
+        </androidx.appcompat.widget.AppCompatButton>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/red"
+        android:elevation="10dp"
+        android:rotation="45"></View>
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/blue"
+        android:elevation="10dp"
+        android:rotation="20"></View>
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/green"
+        android:elevation="10dp"
+        android:rotation="10"></View>
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/yellow"
+        android:elevation="10dp"
+        android:rotation="20"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/bear"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Регистрация"
+            android:textColor="@color/black"
+            android:textSize="24dp"></TextView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:shadowColor="@color/black"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:elevation="20dp"
+                android:paddingLeft="10dp"
+                android:text="Логин"></EditText>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:shadowColor="@color/black"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:elevation="20dp"
+                android:paddingLeft="10dp"
+                android:text="Пароль"></EditText>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:shadowColor="@color/black"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:elevation="20dp"
+                android:paddingLeft="10dp"
+                android:text="e-mail"></EditText>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:shadowColor="@color/black"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:elevation="20dp"
+                android:paddingLeft="10dp"
+                android:text="Гендер"></EditText>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:shadowColor="@color/black"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:elevation="20dp"
+                android:paddingLeft="10dp"
+                android:text="Роль"></EditText>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:shadowColor="@color/black"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:padding="10dp"
+                android:text="Зарегистироваться"
+                android:textColor="@android:color/black"></androidx.appcompat.widget.AppCompatButton>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</RelativeLayout>

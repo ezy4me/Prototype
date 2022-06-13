@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:background="#F8DF00">
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/red"
+        android:elevation="10dp"
+        android:rotation="45"></View>
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/blue"
+        android:elevation="10dp"
+        android:rotation="20"></View>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="620dp"
+        android:rotation="10"
+        app:cardElevation="5dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/green">
+        </View>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/yellow"
+        android:elevation="10dp"
+        android:rotation="20"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Gramotey"
+            android:textColor="@color/black"
+            android:textSize="48dp"></TextView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/bear"></ImageView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:shadowColor="@color/black"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:padding="10dp"
+                android:text="Зарегистрироваться"
+                android:textColor="@android:color/black"></androidx.appcompat.widget.AppCompatButton>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/black"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:padding="10dp"
+                android:text="Продолжить обучение"
+                android:textColor="@android:color/black"></androidx.appcompat.widget.AppCompatButton>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
