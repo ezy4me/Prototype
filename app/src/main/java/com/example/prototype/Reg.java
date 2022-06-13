@@ -6,6 +6,8 @@ import android.os.Bundle;
 
 public class Reg extends AppCompatActivity {
 
+    public final int a = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
