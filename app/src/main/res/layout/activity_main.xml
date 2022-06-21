@@ -20,7 +20,6 @@
             android:layout_height="30dp"
             android:background="@drawable/input"
             android:backgroundTint="@color/black"
-            android:shadowRadius="@integer/material_motion_duration_long_1"
             android:text="Назад"
             android:textColor="@android:color/white">
 
