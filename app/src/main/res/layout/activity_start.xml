@@ -77,12 +77,13 @@
             app:cardElevation="20dp">
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnReg"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/input"
                 android:padding="10dp"
                 android:text="Зарегистрироваться"
-                android:textColor="@android:color/black"></androidx.appcompat.widget.AppCompatButton>
+                android:textColor="@android:color/black" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -93,6 +94,7 @@
             app:cardElevation="20dp">
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnChoice"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/input"

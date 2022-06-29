@@ -116,7 +116,8 @@
              android:layout_height="wrap_content"
              android:orientation="vertical"
              android:layout_gravity="center_vertical">
-             <ImageView
+             <androidx.appcompat.widget.AppCompatButton
+                 android:id="@+id/btnSettings"
                  android:layout_width="50dp"
                  android:layout_height="50dp"
                  android:layout_margin="10dp"
